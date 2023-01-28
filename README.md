@@ -5,7 +5,6 @@
 <https://jestjs.io/docs/tutorial-react>
 <https://testing-library.com/>
 
-
 ### 🚀 Quick start
 
 #### Instalar dependencias
@@ -25,6 +24,16 @@ yarn dev
 ```bash
 yarn test
 ```
+
+#### Docker Image
+
+```bash
+docker build -t heroes-app . --no-cache
+
+docker container run -p 80:80 heroes-app 
+```
+
+<http://localhost:80>
 
 ---
 
